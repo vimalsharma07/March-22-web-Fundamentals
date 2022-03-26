@@ -1,0 +1,91 @@
+#first{
+    width: 100%;
+    height: 90px;
+}
+#heading4{
+          position: absolute; top: 10px; left: 200px;
+
+}
+
+  #second{
+   position: absolute;top: 30px; left: 250px;
+   margin-left: 80px;
+   border: 10px; 
+   font-size: 17px;
+
+}
+#heading4a{
+
+          position: absolute;top: 15px; left: 620px;
+}
+#heading4b{
+    position: absolute;top: 15px; left: 700px;
+    margin-left: 70px;
+
+}
+#heading4c{
+    position: absolute;top: 16px; left: 950px;
+
+
+}
+#btn{
+
+    position: absolute;top: 18px; left: 1200px;
+     background-color:darkgreen;
+     border-radius: 80px;
+     height: 50px;
+}
+#application{
+              color: green;
+              margin-left: 350px;
+
+}
+   #form{
+
+          position: absolute; left: 600px; top: 120px;
+   }
+   #geekster{ color: green;}
+
+  #program{ 
+      margin-top: 90px;
+  }
+    #geekstercourses{
+        position: absolute; left: 700px; top: 430px;
+
+    }
+     #phone{
+         margin-top: 50px;
+         margin-left: 127px;
+     }
+     #year{
+             margin-top: 40px;
+             margin-left: 127px;
+     }
+      #highestdegree{
+
+               position: absolute; left: 700px; top: 220px;
+      }  
+      #program{
+        position: absolute; left: 700px; top: 230px;
+
+
+      }
+      #fullname{ margin-left: 140px;
+                 margin-top: 50px;                      }
+      #email{margin-top: 60px;
+               margin-left: 130px;                 }
+      #last{
+
+              text-align: center;
+              padding: 10px;
+              color: white;
+              margin-left: 550px;
+              background-color: green;
+
+      }
+        p{margin-left: 80px;}
+        #checkbox{                
+                  position: absolute;
+                   bottom: 4px;
+                    left: 50px !important;
+           }

@@ -1,0 +1,112 @@
+h1{ text-align: center;
+    border: 50px;
+background-color: blueviolet;
+
+
+}
+body { background-color: aqua;
+
+
+}
+
+h2{ border: 5px solid gray;
+ background-color: bisque;   
+margin-top: 50px;
+padding: 28px;
+
+}
+
+#first{
+    margin-bottom: 50px;
+    
+    color: blueviolet;
+    background-color: rgb(244, 250, 247);
+          
+margin-top: 100px;
+    
+}
+
+#second{
+    padding: 10px;
+    width: 320px;
+    text-align: right;
+    margin-top: 50px;
+} 
+
+#third{ text-align: right;
+    background-color:aqua;
+       
+
+}
+
+
+#billu
+       {background-color: aliceblue;
+        height: 600px;
+         width: 350px;
+
+}
+  
+#name{
+       margin-left: 60px;
+       margin-bottom: 70px;
+
+
+}
+#Father{
+        margin-left: 8px;
+        margin-bottom: 30px;
+
+}
+#born{
+      margin-left: 15px;
+      width: 165px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+}
+#password{
+    margin-left: 35px;
+    width: 165px;
+    margin-bottom: 30px;
+
+}
+h3{
+    background-color: green;
+    
+    
+}
+
+
+ #btn{
+     margin-top: 80px;
+     margin-left: 90px;
+     background-color: rgb(0, 255, 0);
+ }
+ #check{
+     margin-top: 70px;
+ }
+
+ #syblass{
+          text-align: right;
+          background-color: skyblue;
+          margin-left: 900px;
+          position:absolute; top:510px;
+          margin-right: 10px;
+        }
+#project{
+            margin-left: 300px;
+           background-color:greenyellow;
+           width: 60px;
+           height: 5px;
+           margin-top: 10px;
+
+}
+
+
+ 
+
+ 
+ #heading{
+     margin-left: 300px;
+
+ }
