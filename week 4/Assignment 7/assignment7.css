@@ -1,0 +1,22 @@
+body{
+    background-size: cover;
+    background-color: aquamarine;
+}
+
+.formbox{ height: 700px;
+    width: 900px;
+    background-color: blueviolet;
+}
+    #btn{ background-color: green;
+    height: 40px;
+width: 90px;}
+h1{ text-align: center;}
+
+
+.inputbox{text-align: center;
+margin: 50px;}
+#download{font-size: 30px;
+text-align: center;}
+#password,#number,#checkbox1,#checkbox2,#checkbox3,#checkbox,#checkbox4{
+    margin: 20px;
+}
