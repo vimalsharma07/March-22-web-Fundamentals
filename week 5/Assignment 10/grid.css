@@ -1,0 +1,46 @@
+.container{
+    background-image: url('https://wallpaperbat.com/img/430327-tropical-beach-wallpaper-desktop-wallpaper-hd-full-screen.jpg');
+    border: 5px solid green;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+height: 600px;
+background-color: blanchedalmond;
+}
+
+.item2{
+    grid-column: 7/ span 4;
+    border: 5px solid white;
+    height: 500px;
+    background-color: pink;
+    margin-left:8px;
+    margin-top: 50px;
+}
+.container input[type="text"]
+{border: none;
+    margin-left: 10px;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+}
+.name input[type="text"]
+{border: none;
+    margin-left: 10px;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+}
+button{padding: 10px;
+background-color: blue;
+margin-left: 138px;
+margin-top: 20px;}
+h1,p{
+    margin-left: 10px;
+}.firstName{
+    width: 50%;
+    margin-top: 15px;
+}
+.lastName{
+    width: 50%;
+    margin-top: -58px;
+    float:right;
+}
