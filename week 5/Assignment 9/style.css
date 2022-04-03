@@ -1,0 +1,32 @@
+.container {
+  border: 2px solid green;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  background-color: antiquewhite;
+  grid-template-columns: auto auto auto auto;
+  height: 90vh;
+}
+
+.items {
+  margin: 10px;
+  background-color: aqua;
+}
+.a {
+  grid-column: 1 / span 2;
+}
+.b {
+  grid-column: 3 / span 1;
+}
+.d {
+  grid-column: 1 / span 1;
+}
+.g {
+  grid-row: 3 / span 2;
+  grid-column: 1 / span 2;
+}
+.h {
+  grid-column: 3 / span 1;
+}
+.k {
+  grid-column: 1 / span 3;
+}
