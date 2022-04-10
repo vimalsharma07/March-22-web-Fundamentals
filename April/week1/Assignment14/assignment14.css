@@ -1,0 +1,24 @@
+.one{
+    background-color: purple;
+    border: 1px solid black;
+}
+.two{
+    background-color: blue;
+    border: 1px solid rgb(180, 87, 87);
+
+}
+.three{
+    background-color: brown;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.four{
+    background-color: blueviolet;
+    border: 1px solid black;
+
+}
+.vimal{
+    padding: 10px;
+    background-color: aquamarine;
+    border: 2px solid yellow;
+}
