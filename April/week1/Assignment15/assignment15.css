@@ -3,4 +3,8 @@ button{
     background-color: chocolate;
     border:  2px solid greenyellow;
     border-radius: 1px;
+     text-align: center;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1606232390005-e6c6b0baf0c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJldHR5JTIwc2t5fGVufDB8fDB8fA%3D%3D&w=1000&q=80');
 }
