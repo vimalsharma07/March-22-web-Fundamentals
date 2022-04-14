@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-element{
+    margin: 20px;
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+}
+input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+}
+select{
+    
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        width: 100%;
+    }
+h1{
+    color: green;
+}
+#btn{
+    width: 35%;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 30%;
+    background-color: green;
+    height: 30px;
+}
+small{
+    color: salmon;
+    font-size: 10px;
+    visibility: hidden;
+    /* display: none; */
+}
+
+small.display{
+    visibility: visible;
+}
+.error{
+    border: 2px solid salmon;
+}
+
+.success{
+    border: 2px solid green;
+}
+ 
+
