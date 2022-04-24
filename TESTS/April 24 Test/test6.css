@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+.container{
+    height: 270;
+    width: 240px;
+    box-shadow: 5px 10px 8px 8px #888888;
+}
+h4{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.email{
+    margin-top: 20px;
+}
+.image{
+    height: 100px;
+    width: 100px;
+}
