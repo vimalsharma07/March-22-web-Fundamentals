@@ -38,13 +38,13 @@ const reviews = [
   const textbio =document.querySelector(".text")
   const prev=document.querySelector("#prev")
   const next=document.querySelector("#next")
-  const random = document.querySelector("#random")
+  const random1 = document.querySelector("#random")
 
   let index=0;
   const currentelement=reviews[index]
   next.addEventListener('click',displaynext)
   prev.addEventListener('click',displayprev)
-//   random.addEventListener('click',randomthings)
+   random1.addEventListener('click',randomthings)
 
   function displaynext(){
      if(index===reviews.length-1){
@@ -73,4 +73,12 @@ const reviews = [
       imageElement.src=virat.img;
 
   }
-  updatescreen(index)
+  updatescreen(reviews[index]);
+
+  function randomthings(){
+    const lastran=Math.random()*reviews.length
+    const index=Math.floor(random1);
+    updatescreen(reviews[index]);
+    
+
+  }

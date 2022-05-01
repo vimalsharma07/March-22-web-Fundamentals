@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+header{
+    height: 400px;
+    width: 450px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+      }
+      form,h1{
+          margin-left: 50px;
+      }
+      #btn{
+          margin-left: 270px;
+      }
+      .items{
+          border: 2px solid green;
+          width: auto;
+          height: auto;
+      }
