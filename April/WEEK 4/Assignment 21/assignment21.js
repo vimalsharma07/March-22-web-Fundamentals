@@ -22,28 +22,18 @@ input.value=``
  function displayscreen(){
      for(let i=0;i < todos.length; i++){
          const element=todos[i];
-     
-     const itemHTMl = 
-        `
-            <div class="todo-item">
-                ${element.task} 
-                <button onclick="deleteItem(${element.id})">Delete</button>
-            </div>
-        `
-        todoList.innerHTML = todoList.innerHTML + itemHTMl
- }
- }
- function deleteItem(id){
-    let itemIndex = -1
-    for (let i = 0; i < todos.length; i++) {
-        const element = todos[i];
-        if(element.id === id){
-            itemIndex = i
-        }
-    }
+         todoList.push(element)
+     element.addEventListener('click', ()=>{
+         element.parentElement.style.opacity=0;
+         setTimeout(()=>{
+             element.addEventListener.style.display=none;
+         }, 500);
+     })
 
-    todos.splice(itemIndex, 1)
+     }
+    input.value=''
+         
+ }
 
-    displayscreen()
-} 
+
  

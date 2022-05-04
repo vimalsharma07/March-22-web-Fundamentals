@@ -1,0 +1,70 @@
+input{
+    height: 30px;
+    width: 40vw;
+    margin-bottom: 30px;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px ;
+}
+label{
+    font-size: 20px;
+}
+#checkbox{
+    height: 15px;
+    width: 15px;
+}
+.submitbutton{
+    height: 30px;
+    width: 70px;
+    background-color: blueviolet;
+    padding: 5px;
+    margin-left: 210px;
+}
+.hidden ,.hidden1,.hidden2,.hidden3{
+    visibility: hidden;
+}
+.visiable{
+    visibility: visible;
+    color: brown;
+}
+
+
+.skills{
+    display: flex;
+}
+.seventy{
+    height: 4px;
+    width:140px;
+    background-color: red;
+    margin-top: 7px;
+}
+
+.ninety{
+    height: 4px;
+    width:180px;
+    background-color: green;
+    margin-top: 7px;
+
+}
+.eighty{
+    height: 4px;
+    width:160px;
+    background-color: yellow;
+    margin-top: 7px;
+
+}
+.skillflex{
+    display: flex;
+}
+.btn1{
+    position: absolute;
+    top: 20px;
+    left: 28px;
+  }
+  .btn{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+  }
