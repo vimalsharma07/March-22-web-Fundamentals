@@ -8,7 +8,7 @@ if(! params.has('q')){
 
 }
 const search_query=params.get('q');
-
+console.log(search_query);
 
 fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q='+search_query+'&type=video&key=AIzaSyAQZ2kWMGWJJ7Ma7N_WSMOFXZw-FHoleRs')
 
